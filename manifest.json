@@ -1,0 +1,30 @@
+{
+  "id": "k1-db-idioms",
+  "title": "사자성어(사전 대조 256 + 후보 3,824)",
+  "description": "표준국어대사전과 대조한 사자성어 256개(한자·뜻·급수 단계)와 검토 전 후보 3,824개.",
+  "version": "1.0.0",
+  "built": "2026-10-23T20:37:02.103Z",
+  "apps": [
+    "idiom"
+  ],
+  "licenses": [
+    "국립국어원 표준국어대사전·한국어기초사전 — CC BY-SA 2.0 KR (출처: 국립국어원, 변경: 표제어 정규화·필터·형식 변환)",
+    "Wiktionary 기여자(Wiktextract/Kaikki 가공) — CC BY-SA 4.0",
+    "K1(케이원테크) 자체 작성 — CC BY-SA 4.0"
+  ],
+  "tier": "free",
+  "files": [
+    {
+      "path": "data/idioms.json",
+      "bytes": 103183,
+      "sha256": "99851727401280c91f803fe117e19547105913e792b9692e579cbe7e1147e49c",
+      "app": true
+    },
+    {
+      "path": "data/review-candidates.json",
+      "bytes": 1138627,
+      "sha256": "53b25d87b47fdddd88d123595c4a5293dd3ad41220f8ba3b7c34fec8fc7f2fee",
+      "app": false
+    }
+  ]
+}
